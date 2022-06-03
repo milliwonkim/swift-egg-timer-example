@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         
         timer.invalidate()
         let hardness = sender.currentTitle!
+        print(hardness)
         totalTime = eggTimes[hardness]!
 
         progressBar.progress = 0.0
